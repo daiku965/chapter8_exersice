@@ -4,3 +4,20 @@
   box-sizing: border-box;
 }
 
+.list {
+  width: 960px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.list-item {
+  padding: 20px;
+}
+
+.list-item:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+
+.list-item:nth-child(even) {
+  background-color: #fdfdfd;
+}
